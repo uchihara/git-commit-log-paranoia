@@ -1,5 +1,5 @@
-class Hello
-  def self.say options={}
+module Greeting
+  def say options={}
     if options[:emphasise]
       # 元気よく挨拶する
       puts "hello!"
@@ -8,4 +8,8 @@ class Hello
       puts "hello"
     end
   end
+end
+
+class Hello
+  extend Greeting
 end
