@@ -1,5 +1,5 @@
 class Hello
-  def say
+  def self.say
     # 挨拶する
     puts "hello"
   end
