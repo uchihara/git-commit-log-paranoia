@@ -1,6 +1,6 @@
 class Hello
   def say
     # 挨拶する
-    puts "hallo"
+    puts "hello"
   end
 end
